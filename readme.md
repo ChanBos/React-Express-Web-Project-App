@@ -10,7 +10,7 @@
 
 > Web Projects App Created With Express and React.
 
-![Web Projects App](https://github.com/ChanBos/My-Developer-Portfolio/blob/master/static/images/CarDatabase.png)
+![Web Projects App](https://github.com/ChanBos/React-Express-Web-Project-App/blob/master/frontend/public/media/WebProjects.png)
 
 This is a simple application to show you how to use Postman to test APIs, making use of Get, Post, Put and Delete requests.
 
