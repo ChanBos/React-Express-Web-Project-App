@@ -1,4 +1,16 @@
-# Postman Testing
+<h1 align="center">Welcome to React-Express-Web-Projects-App 👋</h1>
+<p>
+  <img alt="Version" src="https://img.shields.io/badge/version-1.0.0-blue.svg?cacheSeconds=2592000" />
+  <img src="https://img.shields.io/badge/node-15.6.0-blue.svg" />
+  <img src="https://img.shields.io/badge/npm-7.11.1-blue.svg" />
+  <a href="#" target="_blank">
+    <img alt="License: ISC" src="https://img.shields.io/badge/License-ISC-yellow.svg" />
+  </a>
+</p>
+
+> Web Projects App Created With Express and React.
+
+![Web Projects App](https://github.com/ChanBos/My-Developer-Portfolio/blob/master/static/images/CarDatabase.png)
 
 This is a simple application to show you how to use Postman to test APIs, making use of Get, Post, Put and Delete requests.
 
@@ -28,6 +40,7 @@ The end-goal of this is to teach you how to test the API with the Postman and to
 - [Installation](#installation)
 - [Usage Instructions](#usage-instructions)
 - [Credits](#credits)
+- [Author Details](#author-details)
 
 ### Installation
 
@@ -233,3 +246,17 @@ Something broke!
 - Ridhaa Cupido - https://github.com/ridhaaDev
 - HyperionDev - https://www.hyperiondev.com/
 - Stack Overflow - https://stackoverflow.com/
+
+## Author
+
+👤 **Chanelle Bösiger**
+
+- GitHub: [@ChanBos](https://github.com/ChanBos)
+- LinkedIn: [@Chanelle Bösiger](https://www.linkedin.com/in/chanelle-b%C3%B6siger-70587767/)
+
+## Show your support
+
+Give a ⭐️ if this project helped you!
+
+***
+_This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_
