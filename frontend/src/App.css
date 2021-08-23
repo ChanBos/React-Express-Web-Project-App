@@ -1,0 +1,166 @@
+/* Set for the container to appear as a grid and set the frames and padding. */
+.container {
+  display: flex;
+  flex-direction: row;
+  padding: 0px !important;
+}
+
+/* --- Header --- */
+/* Set for the header to display as a grid and set the frames. Also set the size (height x width), the margins, padding, background colour,
+font size and colour and set the alignment and justification to center. */
+.App-header {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 100px;
+  width: 100%;
+  margin: 0px auto 35px auto;
+  padding: 0px;
+  background-color: #ffffff;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: #000000;
+}
+
+/* Set for the first header section to display as flex and for the direction to be row. Also set the left margin. */
+#headersection1 {
+  display: flex;
+  flex-direction: row;
+  margin-left: 90px;
+}
+
+/* Set the  right margin of the second header section and set for the usage header to display on the right. */
+#headersection2 {
+  margin-right: 80px !important;
+  text-align: end !important;
+}
+
+/* Set the .gif image's height. */
+img {
+  height: 18vmin;
+}
+
+/* Set the font weight and padding of the header font. */
+h1 {
+  font-weight: 600 !important;
+  padding: 15px;
+}
+
+/* Set the font size and colour of the info "button". */
+.fa-info-circle {
+  color: #ff0000;
+  font-size: 2rem;
+}
+
+/* Set for the cursor to change to a pointer and for the icon to rotate over a 4 second interval, infinitely if hovered over. Set for the icon 
+to be rotated on the 50% axis and to rotate 720 degrees. */
+.fa-info-circle:hover {
+  animation: iconrotate 4s infinite;
+  cursor: pointer;
+}
+
+@keyframes iconrotate {
+  50% {
+    transform: rotate(720deg);
+  }
+}
+
+/* --- Modal --- */
+/* Set the top margin of the modal's close button. */
+.close {
+  margin-top: -10px !important;
+  margin-right: 2px !important;
+}
+
+/* Set the modal's text size. */
+.modal {
+  font-size: 0.9rem;
+}
+
+/* Set for the modal footer to appear as flex and for it to appear in a row. Set the width and the padding. */
+.modal-footer {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  padding: 0px !important;
+}
+
+/* Set for the first container of the modal footer to display as flex and as a row. Set the width and the left margin. */
+#modalfootercontainer1 {
+  display: flex;
+  flex-direction: row;
+  width: 78%;
+  margin-left: 10px;
+}
+
+/* Set the margins of the modal footer's text. */
+#modalfootertext {
+  margin-top: 35px;
+  margin-left: 15px;
+}
+
+/* Set the right margin and the width of the modal footer's button. */
+#modalfooterbutton {
+  margin-right: 40px;
+  width: 14%;
+}
+
+/* --- Form --- */
+/* Set the width of the form. */
+form {
+  width: 425px;
+}
+
+/* Set the font weight of the form's labels. */
+label {
+  font-weight: bold;
+}
+
+/* Set the top margin for the buttons and input sections. */
+button,
+input {
+  margin-top: 8px !important;
+}
+
+/* Set the right margins for the icons. */
+.svg-inline--fa {
+  margin-right: 10px;
+}
+
+/* --- Table Section --- */
+/* Set the left margin and the font weight of the table's heading. */
+h6 {
+  margin-left: 40px !important;
+  font-weight: bold !important;
+}
+
+/* Set the width and margins of the table. */
+table {
+  width: 700px;
+  margin: 13px 40px 0px 40px !important;
+}
+
+/* Set the table header cells' bottom padding and added a border (styled, coloured and sized). */
+th {
+  padding: 7px;
+  color: #ffffff;
+  background-color: #007aff;
+}
+
+/* Adjusted the top-left and bottom-left border raduises of the first table header cell. */
+#th-cell-left {
+  border-radius: 5px 0px 0px 5px;
+}
+
+/* Adjusted the top-right and bottom-right border raduises of the first table header cell. */
+#th-cell-right {
+  border-radius: 0px 5px 5px 0px;
+}
+
+/* Set the table header cells', vertical alignment, bottom padding, font size and added a border (styled, coloured and sized). */
+td {
+  vertical-align: text-top;
+  padding: 7px;
+  border-bottom: 1px #0000002f solid;
+  font-size: 0.9rem;
+}
